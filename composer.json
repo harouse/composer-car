@@ -1,0 +1,21 @@
+{
+    "name": "harouse/composer-car",
+    "description": "This a demo for build composer packagist .",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "harouse",
+            "email": "harouse@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=7.0.0"
+	},
+	"autoload":{
+		"psr-4": {
+			"Harouse\\Manager\\": "src/Harouse/Manager"
+		}
+	}
+}
